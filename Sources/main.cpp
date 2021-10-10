@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
         }
         In(c, fileIn);
         fclose(fileIn);
-        if (c.length < 1 || c.length >= container::max_length) {
+        if (c.length < 1 || c.length > container::max_length) {
             printf("Incorrect number of figures = %d. Set 0 < number <= %d\n", c.length, container::max_length);
             return 3;
         }

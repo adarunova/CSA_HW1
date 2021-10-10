@@ -55,36 +55,141 @@ include CMakeFiles\CSA_HW1.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\CSA_HW1.dir\flags.make
 
-CMakeFiles\CSA_HW1.dir\main.cpp.obj: CMakeFiles\CSA_HW1.dir\flags.make
-CMakeFiles\CSA_HW1.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\CSA-HW1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CSA_HW1.dir/main.cpp.obj"
+CMakeFiles\CSA_HW1.dir\Sources\main.cpp.obj: CMakeFiles\CSA_HW1.dir\flags.make
+CMakeFiles\CSA_HW1.dir\Sources\main.cpp.obj: ..\Sources\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\CSA-HW1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CSA_HW1.dir/Sources/main.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CSA_HW1.dir\main.cpp.obj /FdCMakeFiles\CSA_HW1.dir\ /FS -c D:\CLionProjects\CSA-HW1\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CSA_HW1.dir\Sources\main.cpp.obj /FdCMakeFiles\CSA_HW1.dir\ /FS -c D:\CLionProjects\CSA-HW1\Sources\main.cpp
 <<
 
-CMakeFiles\CSA_HW1.dir\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSA_HW1.dir/main.cpp.i"
-	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CSA_HW1.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\CSA-HW1\main.cpp
+CMakeFiles\CSA_HW1.dir\Sources\main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSA_HW1.dir/Sources/main.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CSA_HW1.dir\Sources\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\CSA-HW1\Sources\main.cpp
 <<
 
-CMakeFiles\CSA_HW1.dir\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSA_HW1.dir/main.cpp.s"
+CMakeFiles\CSA_HW1.dir\Sources\main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSA_HW1.dir/Sources/main.cpp.s"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CSA_HW1.dir\main.cpp.s /c D:\CLionProjects\CSA-HW1\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CSA_HW1.dir\Sources\main.cpp.s /c D:\CLionProjects\CSA-HW1\Sources\main.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\container.cpp.obj: CMakeFiles\CSA_HW1.dir\flags.make
+CMakeFiles\CSA_HW1.dir\Sources\container.cpp.obj: ..\Sources\container.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\CSA-HW1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CSA_HW1.dir/Sources/container.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CSA_HW1.dir\Sources\container.cpp.obj /FdCMakeFiles\CSA_HW1.dir\ /FS -c D:\CLionProjects\CSA-HW1\Sources\container.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\container.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSA_HW1.dir/Sources/container.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CSA_HW1.dir\Sources\container.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\CSA-HW1\Sources\container.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\container.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSA_HW1.dir/Sources/container.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CSA_HW1.dir\Sources\container.cpp.s /c D:\CLionProjects\CSA-HW1\Sources\container.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\triangle.cpp.obj: CMakeFiles\CSA_HW1.dir\flags.make
+CMakeFiles\CSA_HW1.dir\Sources\triangle.cpp.obj: ..\Sources\triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\CSA-HW1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CSA_HW1.dir/Sources/triangle.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CSA_HW1.dir\Sources\triangle.cpp.obj /FdCMakeFiles\CSA_HW1.dir\ /FS -c D:\CLionProjects\CSA-HW1\Sources\triangle.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSA_HW1.dir/Sources/triangle.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CSA_HW1.dir\Sources\triangle.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\CSA-HW1\Sources\triangle.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSA_HW1.dir/Sources/triangle.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CSA_HW1.dir\Sources\triangle.cpp.s /c D:\CLionProjects\CSA-HW1\Sources\triangle.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\rectangle.cpp.obj: CMakeFiles\CSA_HW1.dir\flags.make
+CMakeFiles\CSA_HW1.dir\Sources\rectangle.cpp.obj: ..\Sources\rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\CSA-HW1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CSA_HW1.dir/Sources/rectangle.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CSA_HW1.dir\Sources\rectangle.cpp.obj /FdCMakeFiles\CSA_HW1.dir\ /FS -c D:\CLionProjects\CSA-HW1\Sources\rectangle.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSA_HW1.dir/Sources/rectangle.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CSA_HW1.dir\Sources\rectangle.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\CSA-HW1\Sources\rectangle.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSA_HW1.dir/Sources/rectangle.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CSA_HW1.dir\Sources\rectangle.cpp.s /c D:\CLionProjects\CSA-HW1\Sources\rectangle.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\circle.cpp.obj: CMakeFiles\CSA_HW1.dir\flags.make
+CMakeFiles\CSA_HW1.dir\Sources\circle.cpp.obj: ..\Sources\circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\CSA-HW1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CSA_HW1.dir/Sources/circle.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CSA_HW1.dir\Sources\circle.cpp.obj /FdCMakeFiles\CSA_HW1.dir\ /FS -c D:\CLionProjects\CSA-HW1\Sources\circle.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSA_HW1.dir/Sources/circle.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CSA_HW1.dir\Sources\circle.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\CSA-HW1\Sources\circle.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSA_HW1.dir/Sources/circle.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CSA_HW1.dir\Sources\circle.cpp.s /c D:\CLionProjects\CSA-HW1\Sources\circle.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\shape.cpp.obj: CMakeFiles\CSA_HW1.dir\flags.make
+CMakeFiles\CSA_HW1.dir\Sources\shape.cpp.obj: ..\Sources\shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\CSA-HW1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CSA_HW1.dir/Sources/shape.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CSA_HW1.dir\Sources\shape.cpp.obj /FdCMakeFiles\CSA_HW1.dir\ /FS -c D:\CLionProjects\CSA-HW1\Sources\shape.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSA_HW1.dir/Sources/shape.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CSA_HW1.dir\Sources\shape.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\CSA-HW1\Sources\shape.cpp
+<<
+
+CMakeFiles\CSA_HW1.dir\Sources\shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSA_HW1.dir/Sources/shape.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CSA_HW1.dir\Sources\shape.cpp.s /c D:\CLionProjects\CSA-HW1\Sources\shape.cpp
 <<
 
 # Object files for target CSA_HW1
 CSA_HW1_OBJECTS = \
-"CMakeFiles\CSA_HW1.dir\main.cpp.obj"
+"CMakeFiles\CSA_HW1.dir\Sources\main.cpp.obj" \
+"CMakeFiles\CSA_HW1.dir\Sources\container.cpp.obj" \
+"CMakeFiles\CSA_HW1.dir\Sources\triangle.cpp.obj" \
+"CMakeFiles\CSA_HW1.dir\Sources\rectangle.cpp.obj" \
+"CMakeFiles\CSA_HW1.dir\Sources\circle.cpp.obj" \
+"CMakeFiles\CSA_HW1.dir\Sources\shape.cpp.obj"
 
 # External object files for target CSA_HW1
 CSA_HW1_EXTERNAL_OBJECTS =
 
-CSA_HW1.exe: CMakeFiles\CSA_HW1.dir\main.cpp.obj
+CSA_HW1.exe: CMakeFiles\CSA_HW1.dir\Sources\main.cpp.obj
+CSA_HW1.exe: CMakeFiles\CSA_HW1.dir\Sources\container.cpp.obj
+CSA_HW1.exe: CMakeFiles\CSA_HW1.dir\Sources\triangle.cpp.obj
+CSA_HW1.exe: CMakeFiles\CSA_HW1.dir\Sources\rectangle.cpp.obj
+CSA_HW1.exe: CMakeFiles\CSA_HW1.dir\Sources\circle.cpp.obj
+CSA_HW1.exe: CMakeFiles\CSA_HW1.dir\Sources\shape.cpp.obj
 CSA_HW1.exe: CMakeFiles\CSA_HW1.dir\build.make
 CSA_HW1.exe: CMakeFiles\CSA_HW1.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CLionProjects\CSA-HW1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CSA_HW1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CLionProjects\CSA-HW1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CSA_HW1.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\CSA_HW1.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\CSA_HW1.dir\objects1.rsp @<<
  /out:CSA_HW1.exe /implib:CSA_HW1.lib /pdb:D:\CLionProjects\CSA-HW1\cmake-build-debug\CSA_HW1.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

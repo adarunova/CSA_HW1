@@ -35,6 +35,7 @@ shape *In(FILE *fileIn, int key) {
             In(s->t, fileIn);
             return s;
         default:
+            printf("Incorrect shape!\n");
             return nullptr;
     }
 }

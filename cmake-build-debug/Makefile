@@ -118,29 +118,149 @@ CSA_HW1\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\build
 .PHONY : CSA_HW1\fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+Sources\circle.obj: Sources\circle.cpp.obj
+.PHONY : Sources\circle.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\main.cpp.obj
-.PHONY : main.cpp.obj
+Sources\circle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\circle.cpp.obj
+.PHONY : Sources\circle.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+Sources\circle.i: Sources\circle.cpp.i
+.PHONY : Sources\circle.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\main.cpp.i
-.PHONY : main.cpp.i
+Sources\circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\circle.cpp.i
+.PHONY : Sources\circle.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Sources\circle.s: Sources\circle.cpp.s
+.PHONY : Sources\circle.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\main.cpp.s
-.PHONY : main.cpp.s
+Sources\circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\circle.cpp.s
+.PHONY : Sources\circle.cpp.s
+
+Sources\container.obj: Sources\container.cpp.obj
+.PHONY : Sources\container.obj
+
+# target to build an object file
+Sources\container.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\container.cpp.obj
+.PHONY : Sources\container.cpp.obj
+
+Sources\container.i: Sources\container.cpp.i
+.PHONY : Sources\container.i
+
+# target to preprocess a source file
+Sources\container.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\container.cpp.i
+.PHONY : Sources\container.cpp.i
+
+Sources\container.s: Sources\container.cpp.s
+.PHONY : Sources\container.s
+
+# target to generate assembly for a file
+Sources\container.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\container.cpp.s
+.PHONY : Sources\container.cpp.s
+
+Sources\main.obj: Sources\main.cpp.obj
+.PHONY : Sources\main.obj
+
+# target to build an object file
+Sources\main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\main.cpp.obj
+.PHONY : Sources\main.cpp.obj
+
+Sources\main.i: Sources\main.cpp.i
+.PHONY : Sources\main.i
+
+# target to preprocess a source file
+Sources\main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\main.cpp.i
+.PHONY : Sources\main.cpp.i
+
+Sources\main.s: Sources\main.cpp.s
+.PHONY : Sources\main.s
+
+# target to generate assembly for a file
+Sources\main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\main.cpp.s
+.PHONY : Sources\main.cpp.s
+
+Sources\rectangle.obj: Sources\rectangle.cpp.obj
+.PHONY : Sources\rectangle.obj
+
+# target to build an object file
+Sources\rectangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\rectangle.cpp.obj
+.PHONY : Sources\rectangle.cpp.obj
+
+Sources\rectangle.i: Sources\rectangle.cpp.i
+.PHONY : Sources\rectangle.i
+
+# target to preprocess a source file
+Sources\rectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\rectangle.cpp.i
+.PHONY : Sources\rectangle.cpp.i
+
+Sources\rectangle.s: Sources\rectangle.cpp.s
+.PHONY : Sources\rectangle.s
+
+# target to generate assembly for a file
+Sources\rectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\rectangle.cpp.s
+.PHONY : Sources\rectangle.cpp.s
+
+Sources\shape.obj: Sources\shape.cpp.obj
+.PHONY : Sources\shape.obj
+
+# target to build an object file
+Sources\shape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\shape.cpp.obj
+.PHONY : Sources\shape.cpp.obj
+
+Sources\shape.i: Sources\shape.cpp.i
+.PHONY : Sources\shape.i
+
+# target to preprocess a source file
+Sources\shape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\shape.cpp.i
+.PHONY : Sources\shape.cpp.i
+
+Sources\shape.s: Sources\shape.cpp.s
+.PHONY : Sources\shape.s
+
+# target to generate assembly for a file
+Sources\shape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\shape.cpp.s
+.PHONY : Sources\shape.cpp.s
+
+Sources\triangle.obj: Sources\triangle.cpp.obj
+.PHONY : Sources\triangle.obj
+
+# target to build an object file
+Sources\triangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\triangle.cpp.obj
+.PHONY : Sources\triangle.cpp.obj
+
+Sources\triangle.i: Sources\triangle.cpp.i
+.PHONY : Sources\triangle.i
+
+# target to preprocess a source file
+Sources\triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\triangle.cpp.i
+.PHONY : Sources\triangle.cpp.i
+
+Sources\triangle.s: Sources\triangle.cpp.s
+.PHONY : Sources\triangle.s
+
+# target to generate assembly for a file
+Sources\triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSA_HW1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CSA_HW1.dir\Sources\triangle.cpp.s
+.PHONY : Sources\triangle.cpp.s
 
 # Help Target
 help:
@@ -151,9 +271,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CSA_HW1
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Sources/circle.obj
+	@echo ... Sources/circle.i
+	@echo ... Sources/circle.s
+	@echo ... Sources/container.obj
+	@echo ... Sources/container.i
+	@echo ... Sources/container.s
+	@echo ... Sources/main.obj
+	@echo ... Sources/main.i
+	@echo ... Sources/main.s
+	@echo ... Sources/rectangle.obj
+	@echo ... Sources/rectangle.i
+	@echo ... Sources/rectangle.s
+	@echo ... Sources/shape.obj
+	@echo ... Sources/shape.i
+	@echo ... Sources/shape.s
+	@echo ... Sources/triangle.obj
+	@echo ... Sources/triangle.i
+	@echo ... Sources/triangle.s
 .PHONY : help
 
 

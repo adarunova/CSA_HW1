@@ -8,7 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/CLionProjects/CSA-HW1/main.cpp" "D:/CLionProjects/CSA-HW1/cmake-build-debug/CMakeFiles/CSA_HW1.dir/main.cpp.obj"
+  "D:/CLionProjects/CSA-HW1/Sources/circle.cpp" "D:/CLionProjects/CSA-HW1/cmake-build-debug/CMakeFiles/CSA_HW1.dir/Sources/circle.cpp.obj"
+  "D:/CLionProjects/CSA-HW1/Sources/container.cpp" "D:/CLionProjects/CSA-HW1/cmake-build-debug/CMakeFiles/CSA_HW1.dir/Sources/container.cpp.obj"
+  "D:/CLionProjects/CSA-HW1/Sources/main.cpp" "D:/CLionProjects/CSA-HW1/cmake-build-debug/CMakeFiles/CSA_HW1.dir/Sources/main.cpp.obj"
+  "D:/CLionProjects/CSA-HW1/Sources/rectangle.cpp" "D:/CLionProjects/CSA-HW1/cmake-build-debug/CMakeFiles/CSA_HW1.dir/Sources/rectangle.cpp.obj"
+  "D:/CLionProjects/CSA-HW1/Sources/shape.cpp" "D:/CLionProjects/CSA-HW1/cmake-build-debug/CMakeFiles/CSA_HW1.dir/Sources/shape.cpp.obj"
+  "D:/CLionProjects/CSA-HW1/Sources/triangle.cpp" "D:/CLionProjects/CSA-HW1/cmake-build-debug/CMakeFiles/CSA_HW1.dir/Sources/triangle.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

@@ -84,7 +84,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CLionProjects/CSA-HW1/main.cpp">
+		<Unit filename="D:/CLionProjects/CSA-HW1/Headers/circle.h">
+			<Option target="CSA_HW1"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/CSA-HW1/Headers/container.h">
+			<Option target="CSA_HW1"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/CSA-HW1/Headers/random.h">
+			<Option target="CSA_HW1"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/CSA-HW1/Headers/rectangle.h">
+			<Option target="CSA_HW1"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/CSA-HW1/Headers/shape.h">
+			<Option target="CSA_HW1"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/CSA-HW1/Headers/triangle.h">
+			<Option target="CSA_HW1"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/CSA-HW1/Sources/circle.cpp">
+			<Option target="CSA_HW1"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/CSA-HW1/Sources/container.cpp">
+			<Option target="CSA_HW1"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/CSA-HW1/Sources/main.cpp">
+			<Option target="CSA_HW1"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/CSA-HW1/Sources/rectangle.cpp">
+			<Option target="CSA_HW1"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/CSA-HW1/Sources/shape.cpp">
+			<Option target="CSA_HW1"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/CSA-HW1/Sources/triangle.cpp">
 			<Option target="CSA_HW1"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/CSA-HW1/CMakeLists.txt">
