@@ -10,6 +10,12 @@ D:/CLionProjects/CSA-HW1/Headers/circle.h
 random.h
 D:/CLionProjects/CSA-HW1/Headers/random.h
 
+D:/CLionProjects/CSA-HW1/Headers/container.h
+stdio.h
+-
+shape.h
+D:/CLionProjects/CSA-HW1/Headers/shape.h
+
 D:/CLionProjects/CSA-HW1/Headers/random.h
 stdlib.h
 -
@@ -30,11 +36,15 @@ D:/CLionProjects/CSA-HW1/Headers/triangle.h
 random.h
 D:/CLionProjects/CSA-HW1/Headers/random.h
 
-D:/CLionProjects/CSA-HW1/Sources/shape.cpp
+D:/CLionProjects/CSA-HW1/Sources/main.cpp
+stdlib.h
+-
 stdio.h
 -
 time.h
 -
-../Headers/shape.h
-D:/CLionProjects/CSA-HW1/Headers/shape.h
+string.h
+-
+../Headers/container.h
+D:/CLionProjects/CSA-HW1/Headers/container.h
 
