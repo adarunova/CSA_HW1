@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CLionProjects/CSA-HW1/Headers/circle.h
+random.h
+D:/CLionProjects/CSA-HW1/Headers/random.h
+
+D:/CLionProjects/CSA-HW1/Headers/random.h
+stdlib.h
+-
+
+D:/CLionProjects/CSA-HW1/Headers/rectangle.h
+random.h
+D:/CLionProjects/CSA-HW1/Headers/random.h
+
+D:/CLionProjects/CSA-HW1/Headers/shape.h
+circle.h
+D:/CLionProjects/CSA-HW1/Headers/circle.h
+rectangle.h
+D:/CLionProjects/CSA-HW1/Headers/rectangle.h
+triangle.h
+D:/CLionProjects/CSA-HW1/Headers/triangle.h
+
+D:/CLionProjects/CSA-HW1/Headers/triangle.h
+random.h
+D:/CLionProjects/CSA-HW1/Headers/random.h
+
+D:/CLionProjects/CSA-HW1/Sources/shape.cpp
+stdio.h
+-
+time.h
+-
+../Headers/shape.h
+D:/CLionProjects/CSA-HW1/Headers/shape.h
+
