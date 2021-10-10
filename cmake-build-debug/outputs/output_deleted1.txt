@@ -1,0 +1,3 @@
+Container with deleted elements:
+Container contains 1 elements.
+0: It is RECTANGLE. Coordinates of angles: (-57, 11), (99, -97). Perimeter = 528.000000; Color: BLUE
